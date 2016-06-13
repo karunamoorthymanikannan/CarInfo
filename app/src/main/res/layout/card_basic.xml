@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/morgin_normal"
+    card_view:cardCornerRadius="@dimen/morgin_normal"
+    card_view:cardElevation="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/card_padding">
+
+        <com.carinfo.widget.CarInfoTextView
+            style="@style/LargeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:text="Vehicle Basic"
+            android:textColor="@color/primary_text_color"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <com.carinfo.widget.CarInfoTextView
+                style="@style/MediumTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:layout_weight="1"
+                android:gravity="left|center_horizontal"
+                android:text="Vehicle Style"
+                android:textColor="@color/secondary_text_color"
+                android:textSize="@dimen/font_spec_title" />
+
+            <com.carinfo.widget.CarInfoTextView
+                android:id="@+id/style"
+                style="@style/LargeTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:layout_weight="1"
+                android:gravity="left|center_horizontal"
+                android:textColor="@color/primary_text_color"
+                android:textSize="@dimen/font_spec_title" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <com.carinfo.widget.CarInfoTextView
+                style="@style/MediumTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:layout_weight="1"
+                android:gravity="left|center_horizontal"
+                android:text="Relese year"
+                android:textColor="@color/secondary_text_color"
+                android:textSize="@dimen/font_spec_title" />
+
+            <com.carinfo.widget.CarInfoTextView
+                android:id="@+id/year"
+                style="@style/LargeTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:layout_weight="1"
+                android:gravity="left|center_horizontal"
+                android:textColor="@color/primary_text_color"
+                android:textSize="@dimen/font_spec_title" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <com.carinfo.widget.CarInfoTextView
+                style="@style/MediumTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:layout_weight="1"
+                android:gravity="left|center_horizontal"
+                android:text="States"
+                android:textColor="@color/secondary_text_color"
+                android:textSize="@dimen/font_spec_title" />
+
+            <com.carinfo.widget.CarInfoTextView
+                android:id="@+id/states"
+                style="@style/LargeTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:layout_weight="1"
+                android:gravity="left|center_horizontal"
+                android:textColor="@color/primary_text_color"
+                android:textSize="@dimen/font_spec_title" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <com.carinfo.widget.CarInfoTextView
+                style="@style/MediumTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:layout_weight="1"
+                android:gravity="left|center_horizontal"
+                android:text="numOfDoors"
+                android:textColor="@color/secondary_text_color"
+                android:textSize="@dimen/font_spec_title" />
+
+            <com.carinfo.widget.CarInfoTextView
+                android:id="@+id/no_of_doors"
+                style="@style/LargeTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:layout_weight="1"
+                android:gravity="left|center_horizontal"
+                android:textColor="@color/primary_text_color"
+                android:textSize="@dimen/font_spec_title" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <com.carinfo.widget.CarInfoTextView
+                style="@style/MediumTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:layout_weight="1"
+                android:gravity="left|center_horizontal"
+                android:text="drivenWheels"
+                android:textColor="@color/secondary_text_color"
+                android:textSize="@dimen/font_spec_title" />
+
+            <com.carinfo.widget.CarInfoTextView
+                android:id="@+id/wheel_size"
+                style="@style/LargeTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:layout_weight="1"
+                android:gravity="left|center_horizontal"
+                android:textColor="@color/primary_text_color"
+                android:textSize="@dimen/font_spec_title" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <com.carinfo.widget.CarInfoTextView
+                style="@style/MediumTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:layout_weight="1"
+                android:gravity="left|center_horizontal"
+                android:text="numberOfSpeeds"
+                android:textColor="@color/secondary_text_color"
+                android:textSize="@dimen/font_spec_title" />
+
+            <com.carinfo.widget.CarInfoTextView
+                android:id="@+id/no_of_speed"
+                style="@style/LargeTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:layout_weight="1"
+                android:gravity="left|center_horizontal"
+                android:textColor="@color/primary_text_color"
+                android:textSize="@dimen/font_spec_title" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <com.carinfo.widget.CarInfoTextView
+                style="@style/MediumTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:layout_weight="1"
+                android:gravity="left|center_horizontal"
+                android:text="transmissionType"
+                android:textColor="@color/secondary_text_color"
+                android:textSize="@dimen/font_spec_title" />
+
+            <com.carinfo.widget.CarInfoTextView
+                android:id="@+id/trassmisson_type"
+                style="@style/LargeTextView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|center_vertical"
+                android:layout_weight="1"
+                android:gravity="left|center_horizontal"
+                android:textColor="@color/primary_text_color"
+                android:textSize="@dimen/font_spec_title" />
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

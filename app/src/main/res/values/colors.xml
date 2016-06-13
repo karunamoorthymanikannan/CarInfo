@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#007CE0</color>
+    <color name="colorPrimaryDark">#007CE0</color>
+    <color name="colorAccent">#007CE0</color>
+    <color name="app_bg">#007CE0</color>
+    <color name="semi_app_bg">#80007CE0</color>
+    <color name="primary_text_color">#232121</color>
+    <color name="secondary_text_color">#80232121</color>
+    <color name="layout_bg">#80575757</color>
+</resources>

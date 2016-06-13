@@ -1,0 +1,11 @@
+<resources>
+
+
+    <!-- Typefaced TextView -->
+    <declare-styleable name="CarInfoTextView">
+        <attr name="typeface" format="string"/>
+        <attr name="htmlText" format="string"/>
+        <attr name="capitalizeText" format="boolean"/>
+    </declare-styleable>
+
+</resources>

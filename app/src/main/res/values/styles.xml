@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="SmallTextView" parent="@android:style/Widget.TextView">
+        <item name="android:includeFontPadding">false</item>
+        <item name="typeface">helvetica_small</item>
+        <item name="android:layerType">software</item>
+
+    </style>
+
+    <style name="MediumTextView" parent="@android:style/Widget.TextView">
+        <item name="android:includeFontPadding">false</item>
+        <item name="typeface">helvetica_normal</item>
+        <item name="android:layerType">software</item>
+
+    </style>
+
+    <style name="LargeTextView" parent="@android:style/Widget.TextView">
+        <item name="android:includeFontPadding">false</item>
+        <item name="typeface">helvetica_large</item>
+        <item name="android:layerType">software</item>
+
+    </style>
+
+    <style name="ExLargeTextView" parent="@android:style/Widget.TextView">
+        <item name="android:includeFontPadding">false</item>
+        <item name="typeface">helvetica_ex_large</item>
+        <item name="android:layerType">software</item>
+
+    </style>
+</resources>
